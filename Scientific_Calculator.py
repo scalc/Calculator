@@ -35,6 +35,13 @@ print("            ")
 print("_______________________ABBAS PRODUCTIONS_______________________")
 
 
+print("            ")
+
+
+print("            ")
+
+
+
 import math as m
 
 
@@ -267,29 +274,29 @@ button7=Button(root,text="7",padx=44,pady=20,command=lambda:click(7),bg="black",
 button8=Button(root,text="8",padx=40,pady=20,command=lambda:click(8),bg="black",fg="white",font=('Segoe UI',20))
 button9=Button(root,text="9",padx=36,pady=20,command=lambda:click(9),bg="black",fg="white",font=('Segoe UI',20))
 button0=Button(root,text="0",padx=40,pady=20,command=lambda:click(0),bg="black",fg="white",font=('Segoe UI',20))
-button_add=Button(root,text="+",padx=34,pady=20,command=add,bg="tan",fg="black",font=('Segoe UI',20))
-button_sub=Button(root,text="-",padx=38,pady=20,command=sub,bg="tan",fg="black",font=('Segoe UI',20))
-button_mul=Button(root,text="x",padx=37,pady=20,command=mul,bg="tan",fg="black",font=('Segoe UI',20))
-button_div=Button(root,text="/",padx=38,pady=20,command=div,bg="tan",fg="black",font=('Segoe UI',20))
-button_clear1=Button(root,text="C",padx=44,pady=20,command=clear,bg="tan",fg="black",font=('Segoe UI',20))
-button_equal=Button(root,text="=",padx=98,pady=20,command=equal,bg="yellow",fg="black",font=('Segoe UI',20))
+button_add=Button(root,text="+",padx=34,pady=20,command=add,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_sub=Button(root,text="-",padx=38,pady=20,command=sub,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_mul=Button(root,text="x",padx=37,pady=20,command=mul,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_div=Button(root,text="/",padx=38,pady=20,command=div,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_clear1=Button(root,text="C",padx=44,pady=20,command=clear,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_equal=Button(root,text="=",padx=98,pady=20,command=equal,bg="#FFFF66",fg="black",font=('Segoe UI',20))
 
 
 
 
-button_per=Button(root,text="%",padx=40,pady=20,command=per,bg="tan",fg="black",font=('Segoe UI',20))
-button_sin=Button(root,text="sin",padx=34,pady=20,command=sin,bg="tan",fg="black",font=('Segoe UI',20))
-button_cos=Button(root,text="cos",padx=28,pady=20,command=cos,bg="tan",fg="black",font=('Segoe UI',20))
-button_tan=Button(root,text="tan",padx=24,pady=20,command=tan,bg="tan",fg="black",font=('Segoe UI',20))
-button_log=Button(root,text="log",padx=24,pady=20,command=log,bg="tan",fg="black",font=('Segoe UI',20))
+button_per=Button(root,text="%",padx=40,pady=20,command=per,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_sin=Button(root,text="sin",padx=34,pady=20,command=sin,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_cos=Button(root,text="cos",padx=28,pady=20,command=cos,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_tan=Button(root,text="tan",padx=24,pady=20,command=tan,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_log=Button(root,text="log",padx=24,pady=20,command=log,bg="#afeeee",fg="black",font=('Segoe UI',20))
 
 
 
 
 
-button_pow=Button(root,text="X^n",padx=28,pady=20,command=pow,bg="tan",fg="black",font=('Segoe UI',20))
-button_sq=Button(root,text="X^2",padx=28,pady=20,command=sq,bg="tan",fg="black",font=('Segoe UI',20))
-button_ln=Button(root,text="ln",padx=42,pady=20,command=ln,bg="tan",fg="black",font=('Segoe UI',20))
+button_pow=Button(root,text="X^n",padx=28,pady=20,command=pow,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_sq=Button(root,text="X^2",padx=28,pady=20,command=sq,bg="#afeeee",fg="black",font=('Segoe UI',20))
+button_ln=Button(root,text="ln",padx=42,pady=20,command=ln,bg="#afeeee",fg="black",font=('Segoe UI',20))
 
 
 
