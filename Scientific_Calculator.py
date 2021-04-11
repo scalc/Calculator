@@ -261,7 +261,7 @@ def equal():
     elif math=="dot":
         e.insert(0,".")
     elif math=="per":
-        e.insert(0,f_num/100)
+        e.insert(0,f_num/float(num2)*100)
     elif math=="sin":
         e.insert(0,m.sin(f_num))
     elif math=="cos":
